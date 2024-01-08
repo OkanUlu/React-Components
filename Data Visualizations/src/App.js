@@ -16,7 +16,10 @@ import ApexBarChart from './components/ApexCharts/Bar';
 import ApexStackedBarChart from './components/ApexCharts/StackedBar';
 import ApexPieChart from './components/ApexCharts/Pie';
 import ApexStackedPieChart from './components/ApexCharts/StackedPie';
-
+import GoogleLineChart from './components/Google/Line';
+import GoogleStackedLineChart from './components/Google/StackedLineChart';
+import GoogleAreaChart from './components/Google/Area';
+import GoogleStackedAreaChart from './components/Google/StackedArea';
 
 
 const App = () => {
@@ -83,6 +86,22 @@ const App = () => {
         <div className="chart-card">
           <ApexStackedPieChart />
         </div>
+      </div>
+      <h1>Google</h1>
+      <div className="chart-grid">
+        <div className="chart-card">
+          <GoogleLineChart />
+        </div>
+        <div className="chart-card">
+          <GoogleStackedLineChart />
+        </div>
+        <div className="chart-card">
+          <GoogleAreaChart />
+        </div>
+        <div className="chart-card">
+          <GoogleStackedAreaChart />
+        </div>
+
       </div>
     </div>
   );
