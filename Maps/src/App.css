@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* İki sütunlu bir grid yapısı */
+  gap: 20px; /* Sütunlar ve satırlar arasındaki boşluk */
+}
+
+.chart-card {
+  padding: 20px;
+  border: 1px solid #ddd; /* Sınır çizgisi eklemek için */
+  border-radius: 8px; /* Yumuşak kenarlar eklemek için */
+}
+
+.chart-card h2 {
+  margin-bottom: 10px; /* Kart başlığı ile grafik arasındaki boşluk */
+}
